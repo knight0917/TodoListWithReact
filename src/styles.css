@@ -1,0 +1,160 @@
+@import url("https://css.gg/pen.css");
+@import url("https://css.gg/close-r.css");
+@import url("https://css.gg/check.css");
+@import url("https://css.gg/arrow-left-r.css");
+@import url("https://css.gg/add-r.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "McLaren", cursive;
+}
+
+body {
+  background-color: #0000fc;
+  background-image: radial-gradient(#000000 0.5px, transparent 0.5px),
+    radial-gradient(#000000 0.5px, #e5e5f7 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  padding: 0 16px;
+}
+
+h1 {
+  background: #0575e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #021b79, #0575e6);
+  background: linear-gradient(to right, #021b79, #0575e6);
+  color: #e5e5f7;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  height: 100px;
+}
+h2 {
+  background: #0575e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #021b79, #0575e6);
+  background: linear-gradient(to right, #021b79, #0575e6);
+  color: #e5e5f7;
+  margin: 30px -16px;
+  padding: 16px 32px;
+  box-shadow: 10px 0 30px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  height: 70px;
+}
+form {
+  position: relative;
+  width: 480px;
+  margin: 130px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  height: 150px;
+  box-shadow: 0 0 30px 0 rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+form button {
+  position: absolute;
+  right: 50%;
+  bottom: -18px;
+  background: #0575e6;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 0 30px 0 rgb(138, 137, 137);
+  cursor: pointer;
+  outline: none;
+}
+
+/* icons */
+.gg-close-r,
+.gg-check,
+.gg-add-r {
+  right: -18%;
+}
+.gg-pen {
+  right: -30%;
+  top: -10%;
+}
+.gg-arrow-left-r {
+  right: -21%;
+  top: 18%;
+}
+
+.edit,
+.delete,
+.back {
+  background: #0575e6;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 0 30px 0 rgb(138, 137, 137);
+  cursor: pointer;
+  outline: none;
+  margin: 10px 0 0 10px;
+}
+.back {
+  margin: -30px 10px;
+}
+.delete {
+  background: red;
+  float: right;
+}
+
+li {
+  margin: 10px;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  margin: 16px;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  list-style-type: none;
+}
+.add {
+  text-decoration: none;
+  color: white;
+}
+
+input[type="checkbox"] {
+  background-color: #fff;
+  margin: 15px 5px;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+}
+
+footer {
+  position: static;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: rgb(30, 120, 204);
+}
